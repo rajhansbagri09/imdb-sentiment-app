@@ -5,7 +5,7 @@ import pickle
 model = pickle.load(open("sentiment_model.pkl","rb"))
 tfidf = pickle.load(open("vectorizer.pkl","rb"))
 
-st.title("🎬 IMDB Movie Sentiment Analyzer")
+st.title("🎬 Review Sentiment Analyzer")
 st.caption("AI Powered Sentiment Analysis Web App")
 st.write("Enter a movie review to check sentiment")
 
